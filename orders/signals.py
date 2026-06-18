@@ -1,10 +1,10 @@
 from django.db.models.signals import post_save
-from django.dispatch import receiver
+# from django.dispatch import receiver
 
 from .models import Order, UserStats
 
 
-@receiver(post_save, sender=Order)
+# @receiver(post_save, sender=Order)
 def update_user_stats_on_order_save(sender, instance, created, **kwargs):
     """
     Update UserStats whenever a new Order is created.
