@@ -104,6 +104,7 @@ docker compose exec app python manage.py benchmark_updates
 
 ## Video Demo
 
+https://youtu.be/5H_rNu3uFKY?si=DXYSewYXy5T-HDsq
 
 ---
 
